@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "RalliSmart",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,14 +8,9 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://rallismartv2-about.rangdong.com.vn/assets/img/pudhina.jpg",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
