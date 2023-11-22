@@ -11,7 +11,7 @@ window.addEventListener("popstate", function (event) {
   }
 });
 
-console.log(process.env.REACT_APP_RD_BASE_URL)
+console.log(process.env)
 // require('dotenv').config();
 // console.log(process.env)
 ReactModal.setAppElement("#root");

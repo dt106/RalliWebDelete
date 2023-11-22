@@ -1,4 +1,3 @@
-import { GoogleLogin } from "@react-oauth/google";
 import React from "react";
 import { toast } from "react-toastify";
 import "react-toastify/ReactToastify.css";
@@ -61,10 +60,10 @@ const Login = () => {
               >
                 Sign In
               </button>
-              <hr />
+              {/* <hr />
               <div className="btn-google-view">
                 <GoogleLogin width={50} onSuccess={() => {}} onError={() => {}} />
-              </div>
+              </div> */}
               {/* <button
                 className="opacity"
                 style={{ backgroundColor: "black" }}
