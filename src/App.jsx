@@ -5,12 +5,14 @@ import "./App.css";
 import Main from "./pages/HomePage";
 import Login from "./pages/LoginPage";
 import './script.js';
+import { RedirectToLogin } from "./services/RedirectToLogin.js";
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/login" index element={<Login />} />
+          <Route index element={<RedirectToLogin />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Main />} />
         </Routes>
       </BrowserRouter>
