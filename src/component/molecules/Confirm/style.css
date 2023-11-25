@@ -1,0 +1,27 @@
+.modal-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50vw;
+}
+.btn-view {
+    margin-left: 10px;
+}
+.btn-modal {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    border: 1px rgb(232, 222, 222) solid;
+    box-shadow: 5px 5px 5px #c4abab;
+
+}
+.content-a {
+    width: max-content;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+
+}
